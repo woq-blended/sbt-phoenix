@@ -1,0 +1,15 @@
+= SBT Phoenix
+:version: 0.1-SNAPSHOT
+:toc-placement: preamble
+:toc:
+
+SBT plugin to create nicely structured and easy readable build configurations.
+
+We got there, because we burned a lot.
+
+== License
+
+This project is published under the https://www.apache.org/licenses/LICENSE-2.0[Apache License, Version 2.0]
+
+== Changelog
+
