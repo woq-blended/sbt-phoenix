@@ -2,6 +2,23 @@ package phoenix
 
 import sbt._
 
+/**
+ * A factory for a sbt sub project.
+ *
+ * A typical use case looks like:
+ * {{{
+ *   import phoenix._
+ *
+ *   object MyProject extends ProjectFactory {
+ *     object config extends ProjectConfig {
+ *       // your configuration goes here
+ *     }
+ *   }
+ * }}}
+ *
+ * In most cases, when you have more than one project which share same configuration,
+ * you create a trait extending [[ProjectConfig]] that contains the common part and then simply inherit from it.
+ */
 trait ProjectFactory {
 
   /**
