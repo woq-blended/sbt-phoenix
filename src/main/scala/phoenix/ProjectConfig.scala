@@ -40,18 +40,19 @@ trait ProjectConfig {
     Keys.moduleName := Keys.name.value
   )
 
+  /**
+   * Project dependencies.
+   */
   def dependsOn: Seq[ClasspathDep[ProjectReference]] = Seq()
+
+  /**
+   * Project aggregations.
+   */
+  def aggregate: Seq[ProjectReference] = Seq()
 
   /**
    * The plugins to be used by this project.
    */
   def plugins: Seq[AutoPlugin] = Seq()
-
-//  /**
-//   * Create the project and applies all settings and plugins.
-//   */
-//  def baseProject: Project = createProject()
-//    .settings(settings)
-//    .enablePlugins(plugins: _*)
 
 }
