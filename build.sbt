@@ -3,7 +3,7 @@ lazy val root = (project in file("."))
   .settings(
     organization := "de.wayofquality.sbt",
     name := "sbt-phoenix",
-    version := "0.1.0",
+    version := "0.1.1-SNAPSHOT",
 
     licenses += ("Apache-2.0", url("https://www.apache.org/licenses/LICENSE-2.0.html")),
 
