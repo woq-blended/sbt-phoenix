@@ -1,5 +1,5 @@
 = SBT Phoenix
-:version: 0.1-SNAPSHOT
+:version: 0.1.0
 :toc-placement: preamble
 :toc:
 
@@ -23,3 +23,6 @@ This project is published under the https://www.apache.org/licenses/LICENSE-2.0[
 
 == Changelog
 
+=== sbt-phoenix 0.1.0 - 2019-05-03
+
+* Initial publish release
